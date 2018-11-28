@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ModuleInternal">
+      <UniqueIdentifier>{a7efac2f-cae3-42f8-b95f-b6da79b2bb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModuleInternal\Serial">
+      <UniqueIdentifier>{081df390-5b77-46a7-8729-6ef7d7ed8d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModuleInternal\Define">
+      <UniqueIdentifier>{d7150ade-401f-43b5-9a29-9bb335acff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{aed31385-1e64-4829-8a56-2db0f2091b48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\EFU_SerialPrm.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EFU_SerialPrm.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EFU_SerialPrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EFU_SerialPrmDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModuleInternal\Serial\CommThread.h">
+      <Filter>ModuleInternal\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModuleInternal\Serial\CQueue.h">
+      <Filter>ModuleInternal\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModuleInternal\Serial\CQueueSerial.h">
+      <Filter>ModuleInternal\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModuleInternal\Dfine\Define.h">
+      <Filter>ModuleInternal\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Device\DeviceSerialEFU.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EFU_SerialPrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EFU_SerialPrmDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModuleInternal\Serial\CommThread.cpp">
+      <Filter>ModuleInternal\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModuleInternal\Serial\CQueue.cpp">
+      <Filter>ModuleInternal\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModuleInternal\Serial\CQueueSerial.cpp">
+      <Filter>ModuleInternal\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Device\DeviceSerialEFU.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EFU_SerialPrm.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
