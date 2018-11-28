@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPIP", "TCPIP\TCPIP.vcproj", "{B14DD4A8-646F-41A3-AF4F-9DA3AC516281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B14DD4A8-646F-41A3-AF4F-9DA3AC516281}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B14DD4A8-646F-41A3-AF4F-9DA3AC516281}.Debug|Win32.Build.0 = Debug|Win32
+		{B14DD4A8-646F-41A3-AF4F-9DA3AC516281}.Release|Win32.ActiveCfg = Release|Win32
+		{B14DD4A8-646F-41A3-AF4F-9DA3AC516281}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
