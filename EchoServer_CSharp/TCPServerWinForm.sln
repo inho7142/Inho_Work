@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServerWinForm", "TCPServerWinForm\TCPServerWinForm.csproj", "{FB52A2FC-B3B9-43D7-AAD9-4B96B111A8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPClient\TCPClient.csproj", "{EC1A8844-E12B-46AD-915A-2CAB50B1B558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTCPServer", "AsyncTCPServer\AsyncTCPServer.csproj", "{C23486F9-6E79-43F9-87CB-DA346EA6F925}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB52A2FC-B3B9-43D7-AAD9-4B96B111A8FC}.Debug|x86.ActiveCfg = Debug|x86
+		{FB52A2FC-B3B9-43D7-AAD9-4B96B111A8FC}.Debug|x86.Build.0 = Debug|x86
+		{FB52A2FC-B3B9-43D7-AAD9-4B96B111A8FC}.Release|x86.ActiveCfg = Release|x86
+		{FB52A2FC-B3B9-43D7-AAD9-4B96B111A8FC}.Release|x86.Build.0 = Release|x86
+		{EC1A8844-E12B-46AD-915A-2CAB50B1B558}.Debug|x86.ActiveCfg = Debug|x86
+		{EC1A8844-E12B-46AD-915A-2CAB50B1B558}.Debug|x86.Build.0 = Debug|x86
+		{EC1A8844-E12B-46AD-915A-2CAB50B1B558}.Release|x86.ActiveCfg = Release|x86
+		{EC1A8844-E12B-46AD-915A-2CAB50B1B558}.Release|x86.Build.0 = Release|x86
+		{C23486F9-6E79-43F9-87CB-DA346EA6F925}.Debug|x86.ActiveCfg = Debug|x86
+		{C23486F9-6E79-43F9-87CB-DA346EA6F925}.Debug|x86.Build.0 = Debug|x86
+		{C23486F9-6E79-43F9-87CB-DA346EA6F925}.Release|x86.ActiveCfg = Release|x86
+		{C23486F9-6E79-43F9-87CB-DA346EA6F925}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
